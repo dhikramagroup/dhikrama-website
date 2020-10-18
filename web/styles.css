@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-image: url(assets/background-black.png);
+}
+
+header {
+    background-color: rgba(253, 249, 249, 0.384);
+    height: 100vh;
+}
+
+.logo-navigation {
+    display: flex;
+    background-color: #3f3b3b96;
+    justify-content: space-between;
+    align-items: center;
+}
+
+logo a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    padding: 6px 6px 2px 2px;
+}
