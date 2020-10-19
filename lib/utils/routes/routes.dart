@@ -35,7 +35,7 @@ class Routes {
     contactPage,
     blogPage,
     RouteDefinition.redirect(
-      path: '/home-page',
+      path: '',
       redirectTo: RoutePaths.homePage.toUrl(),
     ),
     RouteDefinition.redirect(

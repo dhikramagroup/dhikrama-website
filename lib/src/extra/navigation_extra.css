@@ -3,13 +3,55 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 6px 6px 6px 20px;
+}
+
+:host ::ng-deep div {
+    overflow: hidden;
+    background-color: #e9e9e9;
+    border-radius: 5px;
+}
+
+:host ::ng-deep div input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    color: black;
+    font-size: 12px;
 }
 
 :host ::ng-deep ul {
     display: flex;
-    padding: 6px 10px 6px 10px;
 }
 
 :host ::ng-deep ul li {
     list-style: none;
+    padding: 6px 10px 6px 10px;
+    border-radius: 7px;
+}
+
+:host ::ng-deep ul li a {
+    text-decoration: none;
+    color: #242424;
+}
+
+:host ::ng-deep ul li a:hover {
+    color: white;
+    font-weight: lighter;
+}
+
+.facebook:hover {
+    background-color: #007AE4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.instagram:hover {
+    background: rgb(74, 88, 207);
+    background: linear-gradient(173deg, rgba(74, 88, 207, 1) 9%, rgba(188, 51, 170, 1) 50%, rgba(245, 211, 109, 1) 97%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.youtube:hover {
+    background-color: #FF0115;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
