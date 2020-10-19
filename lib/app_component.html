@@ -1,9 +1,21 @@
+<extra-header></extra-header>
 <header>
-    <navigation-extra></navigation-extra>
     <div class="logo-navigation">
-        <logo></logo>
-        <nav></nav>
+        <logo-header>
+            <a [routerLink]="RoutePaths.homePage.toUrl()">Dhikrama Group</a>
+        </logo-header>
+        <nav>
+            <ul>
+                <li [routerLinkActive]="'active-route'"><a [routerLink]="RoutePaths.homePage.toUrl()">Home</a></li>
+                <li [routerLinkActive]="'active-route'"><a [routerLink]="RoutePaths.aboutPage.toUrl()">About Us</a></li>
+                <li [routerLinkActive]="'active-route'"><a [routerLink]="RoutePaths.contactPage.toUrl()">Contact Us</a></li>
+                <li [routerLinkActive]="'active-route'"><a [routerLink]="RoutePaths.blogPage.toUrl()">Blog Us</a></li>
+            </ul>
+        </nav>
     </div>
+
 </header>
-<main></main>
+<main>
+    <router-outlet [routes]="Routes.all"></router-outlet>
+</main>
 <footer></footer>

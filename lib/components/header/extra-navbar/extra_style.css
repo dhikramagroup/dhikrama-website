@@ -1,8 +1,0 @@
-:host {
-    height: 20px;
-}
-
-:host ::ng-deep ul {
-    display: flex;
-    background-color: goldenrod;
-}

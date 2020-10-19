@@ -8,11 +8,6 @@ body {
     background-image: url(assets/background-black.png);
 }
 
-header {
-    background-color: rgba(253, 249, 249, 0.384);
-    height: 100vh;
-}
-
 .logo-navigation {
     display: flex;
     background-color: #3f3b3b96;
@@ -20,8 +15,11 @@ header {
     align-items: center;
 }
 
-logo a {
+logo-header a {
     text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 20px;
 }
 
 nav ul {
@@ -29,11 +27,29 @@ nav ul {
     text-decoration: none;
 }
 
-nav a {
+nav ul li a {
     text-decoration: none;
 }
 
-li {
+nav ul li {
     list-style: none;
-    padding: 6px 6px 2px 2px;
+    padding: 5px 10px 5px 10px;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+
+.active-route {
+    list-style: none;
+    padding: 5px 10px 5px 10px;
+    margin: 10px 10px;
+    background-color: goldenrod;
+    border-radius: 5px;
+}
+
+nav ul li:hover {
+    list-style: none;
+    padding: 5px 10px 5px 10px;
+    margin: 10px 10px;
+    background-color: goldenrod;
+    border-radius: 5px;
 }

@@ -1,0 +1,15 @@
+:host {
+    background-color: goldenrod;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+:host ::ng-deep ul {
+    display: flex;
+    padding: 6px 10px 6px 10px;
+}
+
+:host ::ng-deep ul li {
+    list-style: none;
+}
